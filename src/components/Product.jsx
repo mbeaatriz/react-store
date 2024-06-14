@@ -25,7 +25,7 @@ const Product = () => {
     fetchProduct(`https://ranekapi.origamid.dev/json/api/produto/${id}`);
   }, [id]);
 
-  if (loading) return <div>Carregando...</div>;
+  if (loading) return <div className="loading"></div>;
   if (error) return <p>{error}</p>;
   if (product === null) return null;
   return (

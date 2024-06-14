@@ -69,3 +69,18 @@ img {
     opacity: initial;
   }
 }
+
+.loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading{
+  to {
+    transform: rotate(360deg);
+  }
+}
