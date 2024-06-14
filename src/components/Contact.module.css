@@ -1,0 +1,24 @@
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.contact h1{
+    margin-bottom: 20px;
+}
+
+.data li{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.data li::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    background-color: #dddddd;
+    margin-right: 10px;
+}
