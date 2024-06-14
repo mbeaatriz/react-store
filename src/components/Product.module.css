@@ -1,0 +1,26 @@
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product h1 {
+  margin-bottom: 10px;
+}
+
+.price {
+  display: block;
+  max-width: fit-content;
+  font-weight: bold;
+  background-color: #0cf25d;
+  color: #025951;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
